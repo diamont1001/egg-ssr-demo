@@ -4,10 +4,13 @@ const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
   async index() {
+    const testData = await this.service.home.getTestDate(); // get test data from service
+
     await this.ctx.render('pages/home.ejs', {
       name: 'home',
-      title: '爱玩品',
-      keywords: '爱玩品',
+      title: 'I am title',
+      keywords: 'keywords',
+      data: testData,
     }, {
       layout: 'layout.ejs',
     });
