@@ -1,0 +1,123 @@
+@charset "utf-8";
+/**!
+ * reset.less
+ * 每个页面都应该引入一份(注意是每个页面不是每个模块)
+ * 建议实际项目中定义 my-reset.less，里面 import 本项目的 reset.less
+ */
+html,
+body {
+  overflow-x: hidden;
+  font: 14px/1.5 Microsoft YaHei, Arial, sans-serif;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img,
+iframe {
+  border: 0 none;
+}
+img {
+  vertical-align: top;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: 400;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+input,
+label,
+select,
+option,
+legend,
+button,
+fieldset,
+textarea {
+  font-size: 100%;
+}
+q:before,
+q:after {
+  content: '';
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/**
+ * mixin.less
+ * 常用的 LESS 类库
+ * Created by Chenjr on 2018/8/2.
+ */
+/* 文字排版 */
+/* 定位 */
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* 长度高度 */
+/* 边距 */
+/* 单行显示点点点 */
+/* 多行显示点点点 */
+/* 去掉点击后出现的蓝色背景 */
+/***** absolute *****/
+/* 水平居中 */
+/* 垂直居中 */
+/* 垂直居中 fix定位写法*/
+/* 圆角 ps：这里加上top-left等的规则是为了解决Android2.x某些机型下border-radius不生效的问题 */
+/* 旋转 */
+/* animation 动画 */
+/* 绝对定位 */
+
