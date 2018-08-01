@@ -1,7 +1,7 @@
 'use strict';
 
 const path = require('path');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
@@ -16,8 +16,8 @@ module.exports = {
   mode: 'development', // production
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css?[hash:8]"
+      filename: '[name].css',
+      chunkFilename: '[id].css?[hash:8]',
     }),
   ],
   module: {
@@ -28,7 +28,7 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           'css-loader',
           'postcss-loader',
-        ]
+        ],
       },
       {
         test: /\.less$/,
@@ -37,16 +37,16 @@ module.exports = {
           'css-loader',
           'postcss-loader',
           'less-loader',
-        ]
+        ],
       },
       {
         test: /\.(png|jpg|gif)$/,
         loader: 'url-loader',
         query: {
           name: '[path][name].[ext]?[hash:8]',
-          limit: 8192 // inline base64 URLs for <=8k images, direct URLs for the rest
-        }
-      }
-    ]
-  }
+          limit: 8192, // inline base64 URLs for <=8k images, direct URLs for the rest
+        },
+      },
+    ],
+  },
 };
