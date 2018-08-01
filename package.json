@@ -1,5 +1,5 @@
 {
-  "name": "25pin",
+  "name": "egg-seo-demo",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -31,8 +31,8 @@
     "node": ">=9.6.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-25pin",
-    "stop": "egg-scripts stop --title=egg-server-25pin",
+    "start": "egg-scripts start --daemon --title=egg-server-egg-seo-demo",
+    "stop": "egg-scripts stop --title=egg-server-egg-seo-demo",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
