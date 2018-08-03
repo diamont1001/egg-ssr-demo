@@ -1,4 +1,6 @@
-# egg-ejs-demo
+# egg-seo-demo
+
+基于 `node egg` 框架的服务器渲染前端 web 项目原型，前端代码使用 `webpack` 进行编译，前端模块使用 `ejs` 模块语言进行渲染，当然模块语言可以根据自己的喜好来进行替换。
 
 ## npm scripts
 
@@ -13,14 +15,11 @@
 ```
 -- app [服务端代码]
     -- controller [路由控制器]
-    -- view [ejs 模板]
+    -- view [ejs 模板，包含前端代码]
         -- modules [模块]
         -- pages [页面，每个页面建立一个，如：'detail']
     -- config [配置文件]
 -- logs [日志]
--- web [前端脚本代码]
-    -- modules [模块]
-    -- pages [页面，每个页面建立一个，如：'detail']
 ```
 
 
