@@ -81,31 +81,31 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./web/pages/home/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./app/view/pages/home/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./web/pages/home/index.js":
-/*!*********************************!*\
-  !*** ./web/pages/home/index.js ***!
-  \*********************************/
+/***/ "./app/view/pages/home/index.js":
+/*!**************************************!*\
+  !*** ./app/view/pages/home/index.js ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./index.less */ \"./web/pages/home/index.less\");\n\nconsole.log('home');\n\n\n//# sourceURL=webpack:///./web/pages/home/index.js?");
+eval("\n\n__webpack_require__(/*! ./index.less */ \"./app/view/pages/home/index.less\");\n\nconsole.log('home');\n\n\n//# sourceURL=webpack:///./app/view/pages/home/index.js?");
 
 /***/ }),
 
-/***/ "./web/pages/home/index.less":
-/*!***********************************!*\
-  !*** ./web/pages/home/index.less ***!
-  \***********************************/
+/***/ "./app/view/pages/home/index.less":
+/*!****************************************!*\
+  !*** ./app/view/pages/home/index.less ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./web/pages/home/index.less?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./app/view/pages/home/index.less?");
 
 /***/ })
 
