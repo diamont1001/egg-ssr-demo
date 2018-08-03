@@ -2,6 +2,13 @@
 
 基于 `node egg` 框架的服务器渲染前端 web 项目原型，前端代码使用 `webpack` 进行编译，前端模块使用 `ejs` 模块语言进行渲染，当然模块语言可以根据自己的喜好来进行替换。
 
+| 功能 | 框架 |
+| -- | -- |
+| 基础框架 | [egg](http://eggjs.org) |
+| 前端代码编译打包 | webpack 4.x |
+| 前端模板 | [ejs](http://ejs.co/#install)（不喜欢的可以替换，很方便） |
+
+
 ## npm scripts
 
 - 安装依赖：`yarn install`
