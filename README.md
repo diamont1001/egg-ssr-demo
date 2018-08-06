@@ -29,6 +29,8 @@
 -- logs [日志]
 ```
 
+注意：`ejs` 模块里引用的模块，在 `js` 里记得把对应模块的 `js` 也引入进来。比如 `pages/home.js` 里就需要 `require('../../modules/header)`。
+
 
 ## 参考文档
 - [egg](http://eggjs.org)
