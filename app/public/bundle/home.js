@@ -86,6 +86,29 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./app/view/modules/header/index.js":
+/*!******************************************!*\
+  !*** ./app/view/modules/header/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n__webpack_require__(/*! ./index.less */ \"./app/view/modules/header/index.less\");\n\nconsole.log('module header');\n\n\n//# sourceURL=webpack:///./app/view/modules/header/index.js?");
+
+/***/ }),
+
+/***/ "./app/view/modules/header/index.less":
+/*!********************************************!*\
+  !*** ./app/view/modules/header/index.less ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./app/view/modules/header/index.less?");
+
+/***/ }),
+
 /***/ "./app/view/pages/home/index.js":
 /*!**************************************!*\
   !*** ./app/view/pages/home/index.js ***!
@@ -94,7 +117,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./index.less */ \"./app/view/pages/home/index.less\");\n\nconsole.log('home');\n\n\n//# sourceURL=webpack:///./app/view/pages/home/index.js?");
+eval("\n\n__webpack_require__(/*! ./index.less */ \"./app/view/pages/home/index.less\");\n__webpack_require__(/*! ../../modules/header */ \"./app/view/modules/header/index.js\");\n\nconsole.log('home');\n\n\n//# sourceURL=webpack:///./app/view/pages/home/index.js?");
 
 /***/ }),
 

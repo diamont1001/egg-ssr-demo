@@ -121,3 +121,32 @@ a:hover {
 /* animation 动画 */
 /* 绝对定位 */
 
+@charset "utf-8";
+/**
+ * mixin.less
+ * 常用的 LESS 类库
+ * Created by Chenjr on 2018/8/2.
+ */
+/* 文字排版 */
+/* 定位 */
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* 长度高度 */
+/* 边距 */
+/* 单行显示点点点 */
+/* 多行显示点点点 */
+/* 去掉点击后出现的蓝色背景 */
+/***** absolute *****/
+/* 水平居中 */
+/* 垂直居中 */
+/* 垂直居中 fix定位写法*/
+/* 圆角 ps：这里加上top-left等的规则是为了解决Android2.x某些机型下border-radius不生效的问题 */
+/* 旋转 */
+/* animation 动画 */
+/* 绝对定位 */
+
