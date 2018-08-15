@@ -1,4 +1,12 @@
 
+1.2.0 / 2018-08-15
+==================
+
+  * feat: 改名为 egg-ssr-demo
+    1）改名为 egg-ssr-demo
+    2）context 使用 layoutRender 进行模板渲染
+    3）layout 静态资源添加版本号，通过配置荐 config.layoutVersion 指定
+
 1.1.1 / 2018-08-06
 ==================
 
