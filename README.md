@@ -1,4 +1,4 @@
-# egg-seo-demo
+# egg-ssr-demo
 
 基于 `node egg` 框架的服务器渲染前端 web 项目原型，前端代码使用 `webpack` 进行编译，前端模块使用 `ejs` 模块语言进行渲染，当然模块语言可以根据自己的喜好来进行替换。
 
@@ -31,6 +31,15 @@
 
 注意：`ejs` 模块里引用的模块，在 `js` 里记得把对应模块的 `js` 也引入进来。比如 `pages/home.js` 里就需要 `require('../../modules/header)`。
 
+## 缓存更新
+
+每次开发完新功能后，一些静态资源（JS/CSS）都有可能会有更新的，为了让线上能马上更新到最新的静态资源，每次发布前，可以修改以下的配置项对静态资源进行更新。
+
+> config/config.default.js
+
+```js
+config.layoutVersion = '2018081501';
+```
 
 ## 参考文档
 - [egg](http://eggjs.org)

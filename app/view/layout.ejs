@@ -1,3 +1,8 @@
+<% var _layoutVersion = '' %>
+<% if (typeof layoutVersion !== 'undefined') { %>
+    <% _layoutVersion = layoutVersion %>
+<% } %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +17,10 @@
     <title><%= title %></title>
     <meta name="keywords" content="<%= keywords %>"/>
     <meta name="description" content=""/>
-    <link rel="stylesheet" href="public/bundle/<%= name %>.css"/>
+    <link rel="stylesheet" href="public/bundle/<%= name %>.css?v=<%= _layoutVersion %>"/>
 </head>
 
 <%- body%>
 
-<script type="text/javascript" src="public/bundle/<%= name %>.js"></script>
+<script type="text/javascript" src="public/bundle/<%= name %>.js?v=<%= _layoutVersion %>"></script>
 </html>

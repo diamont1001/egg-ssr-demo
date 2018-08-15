@@ -10,7 +10,7 @@ module.exports = app => {
 
     async getTestDate() {
       return {
-        name: 'egg-seo-demo',
+        name: 'egg-ssr-demo',
       };
     }
   }

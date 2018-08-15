@@ -23,5 +23,8 @@ module.exports = appInfo => {
     // strict: false,
   };
 
+  // layout 版本号，每次发版前需要把它修改一下
+  config.layoutVersion = '2018081501';
+
   return config;
 };

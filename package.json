@@ -1,5 +1,5 @@
 {
-  "name": "egg-seo-demo",
+  "name": "egg-ssr-demo",
   "version": "1.1.1",
   "description": "",
   "private": true,
@@ -31,8 +31,8 @@
     "node": ">=9.6.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-egg-seo-demo",
-    "stop": "egg-scripts stop --title=egg-server-egg-seo-demo",
+    "start": "egg-scripts start --daemon --title=egg-server-egg-ssr-demo",
+    "stop": "egg-scripts stop --title=egg-server-egg-ssr-demo",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
