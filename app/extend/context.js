@@ -8,6 +8,7 @@ module.exports = {
 
     return this.render(tpl, data, {
       layout: 'layout.ejs',
+      rmWhitespace: true,
     });
   },
 };
