@@ -15,6 +15,7 @@
 - 开发调试：开两个窗口，一个编译前端代码 `npm run devFe`，另外一个运行服务器代码 `npm run dev`，浏览器打开 [http://localhost:7001/](http://localhost:7001/)
 - 发布前编译：`npm test && npm run build`
 - 运行：`npm start`
+- 停止：`npm stop`
 
 
 ## 重要目录
